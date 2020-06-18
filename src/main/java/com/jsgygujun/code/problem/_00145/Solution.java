@@ -30,12 +30,12 @@ public class Solution {
     private static class ColorNode {
         private NodeColor color;
         private TreeNode node;
-        public ColorNode(NodeColor color, TreeNode node) {
+        private ColorNode(NodeColor color, TreeNode node) {
             this.color = color;
             this.node = node;
         }
     }
-    // 颜色标记法
+    // 颜色标记法二叉树后续遍历
     public List<Integer> postorderTraversal2(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         if (root == null) return res;
