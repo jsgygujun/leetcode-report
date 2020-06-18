@@ -28,8 +28,8 @@ public class Solution {
     enum NodeColor {WHITE, GRAY}
     // 彩色节点
     private static class ColorNode {
-        private NodeColor color;
-        private TreeNode node;
+        final private NodeColor color;
+        final private TreeNode node;
         private ColorNode(NodeColor color, TreeNode node) {
             this.color = color;
             this.node = node;

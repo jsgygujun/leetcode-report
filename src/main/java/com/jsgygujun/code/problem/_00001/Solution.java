@@ -1,4 +1,4 @@
-package com.jsgygujun.code._00001;
+package com.jsgygujun.code.problem._00001;
 
 import java.util.HashMap;
 import java.util.Map;
