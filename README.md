@@ -4,6 +4,7 @@
 | 题目                                                         | 难度 | 标签   |
 | :----------------------------------------------------------- | :--- | :----- |
 | [00001-两数之和](/src/main/java/com/jsgygujun/code/problem/_00001/README.md) | 简单 |        |
+| [00002-两数相加](/src/main/java/com/jsgygujun/code/problem/_00002/README.md) | 中等 | 链表   |
 | [00019-删除链表的倒数第N个节点](/src/main/java/com/jsgygujun/code/problem/_00019/README.md) | 中等 | 链表   |
 | [00094-二叉树的中序遍历](/src/main/java/com/jsgygujun/code/problem/_00094/README.md) | 中等 |        |
 | [00100-相同的树](/src/main/java/com/jsgygujun/code/problem/_00100/README.md) | 简单 |        |
