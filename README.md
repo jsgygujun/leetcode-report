@@ -9,6 +9,7 @@
 | [00100-相同的树](/src/main/java/com/jsgygujun/code/problem/_00100/README.md) | 简单 |      |
 | [00144-二叉树的前序遍历](/src/main/java/com/jsgygujun/code/problem/_00144/README.md) | 中等 |      |
 | [00145-二叉树的后序遍历](/src/main/java/com/jsgygujun/code/problem/_00145/README.md) | 困难 |      |
+| [00237-删除连表中的节点](/src/main/java/com/jsgygujun/code/problem/_00237/README.md) | 简单 | 连表 |
 
 ## 算法模版
 
