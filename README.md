@@ -19,6 +19,9 @@
 | [00144-二叉树的前序遍历](/src/main/java/com/jsgygujun/code/problem/_00144/README.md) | 中等 |        |
 | [00145-二叉树的后序遍历](/src/main/java/com/jsgygujun/code/problem/_00145/README.md) | 困难 |        |
 | [00237-删除连表中的节点](/src/main/java/com/jsgygujun/code/problem/_00237/README.md) | 简单 | 链表   |
+| [00455-分发饼干]                                             | 中等 |        |
+| [00461-汉明距离](/src/main/java/com/jsgygujun/code/problem/_00461/README.md) | 简单 |        |
+| [00657-机器人能否返回原点](/src/main/java/com/jsgygujun/code/problem/_00657/README.md) | 简单 |        |
 
 ## 算法模版
 
