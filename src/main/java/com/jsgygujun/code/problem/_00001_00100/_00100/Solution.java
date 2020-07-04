@@ -12,6 +12,7 @@ import com.jsgygujun.code.util.TreeNode;
  * }
  */
 class Solution {
+    // 前序遍历。当前节点，当前节点左子树，当前节点右子树
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null) return true;
         if (p == null || q == null) return false;

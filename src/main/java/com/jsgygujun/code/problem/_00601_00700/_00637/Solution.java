@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem.tree._00637;
+package com.jsgygujun.code.problem._00637;
 
 import com.jsgygujun.code.util.TreeNode;
 import org.junit.Test;
@@ -27,7 +27,7 @@ public class Solution {
         List<List<Integer>> nums = new ArrayList<>();
         dfs(root, nums, 0);
         for (List<Integer> num : nums) {
-            int sum = 0;
+            long sum = 0;
             for (int v : num) {
                 sum += v;
             }
@@ -52,7 +52,7 @@ public class Solution {
         List<TreeNode> curr = new ArrayList<>(); // 当前层需要处理的
         curr.add(root);
         while (!curr.isEmpty()) {
-            int sum = 0;
+            long sum = 0;
             List<TreeNode> next = new ArrayList<>(); // 下一层需要处理的
             for (TreeNode node : curr) {
                 sum += node.val;

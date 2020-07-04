@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00378;
+package com.jsgygujun.code.problem._00301_00400._00378;
 
 /**
  * 378-有序矩阵中第K小的元素

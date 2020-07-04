@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00509;
+package com.jsgygujun.code.problem._00501_00600._00509;
 
 import org.junit.Assert;
 import org.junit.Test;
