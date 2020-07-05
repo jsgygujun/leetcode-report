@@ -3,7 +3,7 @@
 
 | 题目                                                         | 难度 | 标签   |
 | :----------------------------------------------------------- | :--- | :----- |
-| [00001-两数之和](/src/main/java/com/jsgygujun/code/problem/_00001/README.md) | 简单 |        |
+| [00001-两数之和](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00001/Solution.java) | 简单 | 哈希   |
 | [00002-两数相加](/src/main/java/com/jsgygujun/code/problem/_00002/README.md) | 中等 | 链表   |
 | [00003-无重复字符的最长串](/src/main/java/com/jsgygujun/code/problem/_00003/README.md) | 中等 |        |
 | 00004-寻找两个正序数组的中位数                               | 困难 |        |
