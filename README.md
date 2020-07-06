@@ -7,7 +7,7 @@
 | [00002-两数相加](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00002/Solution.java) | 中等 | 链表     |
 | [00003-无重复字符的最长串](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00003/Solution.java) | 中等 | 滑动窗口 |
 | 00004-寻找两个正序数组的中位数                               | 困难 |          |
-| 00005-最长回文子串                                           | 中等 |          |
+| [00005-最长回文子串](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00005/Solution.java) | 中等 | 动态规划 |
 | 00006-Z字形变换                                              | 中等 |          |
 | 00007-整数反转                                               | 简单 |          |
 | 00008-字符串转换整数(atoi)                                   | 中等 |          |
