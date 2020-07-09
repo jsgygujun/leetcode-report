@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00015;
+package com.jsgygujun.code.problem._00001_00100._00015;
 
 import org.junit.Test;
 

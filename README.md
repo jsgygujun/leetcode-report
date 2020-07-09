@@ -15,6 +15,8 @@
 | [00011-盛水最多的容器](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00011/Solution.java) | 中等 | 滑动窗口、双指针 |
 | [00012-整数转罗马数字](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00012/Solution.java) | 中等 | 贪心             |
 | [00013-罗马数字转整数](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00013/Solution.java) | 简单 |                  |
+| [00014-最长公共前缀](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00014/Solution.java) | 简单 |                  |
+| [00015-三数之和](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00015/Solution.java) | 中等 |                  |
 | [00112-不同路径 II]()                                        |      |                  |
 | [00019-删除链表的倒数第N个节点](/src/main/java/com/jsgygujun/code/problem/_00019/README.md) | 中等 | 链表             |
 | [00094-二叉树的中序遍历](/src/main/java/com/jsgygujun/code/problem/_00094/README.md) | 中等 |                  |
