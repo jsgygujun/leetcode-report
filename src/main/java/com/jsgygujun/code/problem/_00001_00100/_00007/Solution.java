@@ -1,5 +1,23 @@
-package com.jsgygujun.code.problem._00007;
+package com.jsgygujun.code.problem._00001_00100._00007;
 
+/**
+ * 7. 整数反转
+ *
+ * 题目：
+ * 给出一个 32 位的有符号整数，你需要将这个整数中每位上的数字进行反转。
+ *
+ * 示例 1:
+ * 输入: 123
+ * 输出: 321
+ *
+ * 示例 2:
+ * 输入: -123
+ * 输出: -321
+ *
+ * 示例 3:
+ * 输入: 120
+ * 输出: 21
+ */
 public class Solution {
     public int reverse(int x) {
         int sign = x >= 0 ? 1 : -1;

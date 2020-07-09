@@ -9,7 +9,7 @@
 | 00004-寻找两个正序数组的中位数                               | 困难 |                  |
 | [00005-最长回文子串](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00005/Solution.java) | 中等 | 动态规划         |
 | 00006-Z字形变换                                              | 中等 |                  |
-| 00007-整数反转                                               | 简单 |                  |
+| [00007-整数反转](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00007/Solution.java) | 简单 |                  |
 | 00008-字符串转换整数(atoi)                                   | 中等 |                  |
 | [00009-回文数](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00009/Solution.java) | 简单 | 动态规划         |
 | [00011-盛水最多的容器](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00011/Solution.java) | 中等 | 滑动窗口、双指针 |
