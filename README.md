@@ -18,6 +18,7 @@
 | [00014-最长公共前缀](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00014/Solution.java) | 简单 |                  |
 | [00015-三数之和](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00015/Solution.java) | 中等 |                  |
 | [00017-电话号码的字母组合](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00017/Solution.java) | 中等 | 递归，组合       |
+| [00022-括号生成](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00022/Solution.java) | 中等 | 递归，DFS        |
 | [00112-不同路径 II]()                                        |      |                  |
 | [00019-删除链表的倒数第N个节点](/src/main/java/com/jsgygujun/code/problem/_00019/README.md) | 中等 | 链表             |
 | [00094-二叉树的中序遍历](/src/main/java/com/jsgygujun/code/problem/_00094/README.md) | 中等 |                  |
