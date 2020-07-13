@@ -22,6 +22,8 @@
 | [00021-合并两个有序链表](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00021/Solution.java) | 简单 | 链表             |
 | [00022-括号生成](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00022/Solution.java) | 中等 | 递归，DFS        |
 | [00024-两两交换链表的节点](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00024/Solution.java) | 中等 | 链表             |
+| [00026-删除排序数组中的重复项](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00026/Solution.java) | 简单 | 数组             |
+| [00027-移除元素](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00027/Solution.java) | 简单 | 数组             |
 | [00112-不同路径 II]()                                        |      |                  |
 | [00019-删除链表的倒数第N个节点](/src/main/java/com/jsgygujun/code/problem/_00019/README.md) | 中等 | 链表             |
 | [00094-二叉树的中序遍历](/src/main/java/com/jsgygujun/code/problem/_00094/README.md) | 中等 |                  |
