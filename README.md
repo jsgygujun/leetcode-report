@@ -31,6 +31,7 @@
 | [00125-验证回文串](/src/main/java/com/jsgygujun/code/problem/_00125/README.md) | 简单 | 字符串           |
 | [00144-二叉树的前序遍历](/src/main/java/com/jsgygujun/code/problem/_00144/README.md) | 中等 |                  |
 | [00145-二叉树的后序遍历](/src/main/java/com/jsgygujun/code/problem/_00145/README.md) | 困难 |                  |
+| [00167-两数之和II - 输入有序数组]/(src/main/java/com/jsgygujun/code/problem/_00101_00200/_00167/Solution.java) | 简单 | 双指针           |
 | [00174-地下城游戏](/src/main/java/com/jsgygujun/code/problem/_00101_00200/_00174/Solution.java) | 困难 | 动态规划         |
 | [00237-删除连表中的节点](/src/main/java/com/jsgygujun/code/problem/_00237/README.md) | 简单 | 链表             |
 | [00455-分发饼干]                                             | 中等 |                  |
