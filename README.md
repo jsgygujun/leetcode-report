@@ -24,6 +24,7 @@
 | [00024-两两交换链表的节点](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00024/Solution.java) | 中等 | 链表             |
 | [00026-删除排序数组中的重复项](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00026/Solution.java) | 简单 | 数组             |
 | [00027-移除元素](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00027/Solution.java) | 简单 | 数组             |
+| [00029-两数相除](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00029/Solution.java) | 中等 | 二分             |
 | [00112-不同路径 II]()                                        |      |                  |
 | [00019-删除链表的倒数第N个节点](/src/main/java/com/jsgygujun/code/problem/_00019/README.md) | 中等 | 链表             |
 | [00094-二叉树的中序遍历](/src/main/java/com/jsgygujun/code/problem/_00094/README.md) | 中等 |                  |
@@ -31,7 +32,7 @@
 | [00125-验证回文串](/src/main/java/com/jsgygujun/code/problem/_00125/README.md) | 简单 | 字符串           |
 | [00144-二叉树的前序遍历](/src/main/java/com/jsgygujun/code/problem/_00144/README.md) | 中等 |                  |
 | [00145-二叉树的后序遍历](/src/main/java/com/jsgygujun/code/problem/_00145/README.md) | 困难 |                  |
-| [00167-两数之和II - 输入有序数组]/(src/main/java/com/jsgygujun/code/problem/_00101_00200/_00167/Solution.java) | 简单 | 双指针           |
+| [00167-两数之和II - 输入有序数组](/src/main/java/com/jsgygujun/code/problem/_00101_00200/_00167/Solution.java) | 简单 | 双指针           |
 | [00174-地下城游戏](/src/main/java/com/jsgygujun/code/problem/_00101_00200/_00174/Solution.java) | 困难 | 动态规划         |
 | [00237-删除连表中的节点](/src/main/java/com/jsgygujun/code/problem/_00237/README.md) | 简单 | 链表             |
 | [00455-分发饼干]                                             | 中等 |                  |
