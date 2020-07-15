@@ -18,13 +18,14 @@
 | [00014-最长公共前缀](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00014/Solution.java) | 简单 |                  |
 | [00015-三数之和](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00015/Solution.java) | 中等 |                  |
 | [00016-最接近的三数之和](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00016/Solution.java) | 中等 | 双指针           |
-| [00017-电话号码的字母组合](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00017/Solution.java) | 中等 | 递归，组合       |
+| 00017-电话号码的字母组合                                     | 中等 | 递归，组合       |
 | [00021-合并两个有序链表](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00021/Solution.java) | 简单 | 链表             |
 | [00022-括号生成](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00022/Solution.java) | 中等 | 递归，DFS        |
 | [00024-两两交换链表的节点](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00024/Solution.java) | 中等 | 链表             |
 | [00026-删除排序数组中的重复项](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00026/Solution.java) | 简单 | 数组             |
 | [00027-移除元素](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00027/Solution.java) | 简单 | 数组             |
 | [00029-两数相除](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00029/Solution.java) | 中等 | 二分             |
+| [00034-在排序数组中查找元素的第一个和最后一个位置](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00034/Solution.java) | 中等 | 二分查找         |
 | [00112-不同路径 II]()                                        |      |                  |
 | [00019-删除链表的倒数第N个节点](/src/main/java/com/jsgygujun/code/problem/_00019/README.md) | 中等 | 链表             |
 | [00094-二叉树的中序遍历](/src/main/java/com/jsgygujun/code/problem/_00094/README.md) | 中等 |                  |
