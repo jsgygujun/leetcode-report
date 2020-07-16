@@ -27,6 +27,7 @@
 | [00029-两数相除](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00029/Solution.java) | 中等 | 二分             |
 | [00034-在排序数组中查找元素的第一个和最后一个位置](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00034/Solution.java) | 中等 | 二分查找         |
 | [00035-搜索插入位置](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00035/Solution.java) | 简单 | 二分查找         |
+| [00050-Pow(x, n)](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00050/Solution.java) | 中等 |                  |
 | [00069-X的平方根](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00069/Solution.java) | 简单 | 二分查找         |
 | [00112-不同路径 II]()                                        |      |                  |
 | [00019-删除链表的倒数第N个节点](/src/main/java/com/jsgygujun/code/problem/_00019/README.md) | 中等 | 链表             |
