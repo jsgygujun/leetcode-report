@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00023;
+package com.jsgygujun.code.problem._00001_00100._00023;
 
 import com.jsgygujun.code.util.ListNode;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00455;
+package com.jsgygujun.code.problem._00401_00500._00455;
 
 import java.util.Arrays;
 

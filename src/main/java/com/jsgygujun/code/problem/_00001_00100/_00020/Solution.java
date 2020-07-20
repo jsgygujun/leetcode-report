@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00020;
+package com.jsgygujun.code.problem._00001_00100._00020;
 
 import java.util.*;
 

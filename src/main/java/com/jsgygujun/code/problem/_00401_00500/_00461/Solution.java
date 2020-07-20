@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00461;
+package com.jsgygujun.code.problem._00401_00500._00461;
 
 public class Solution {
     public int hammingDistance(int x, int y) {

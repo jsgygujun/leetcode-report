@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00019;
+package com.jsgygujun.code.problem._00001_00100._00019;
 
 import com.jsgygujun.code.util.ListNode;
 

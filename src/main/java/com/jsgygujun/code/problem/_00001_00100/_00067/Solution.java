@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00067;
+package com.jsgygujun.code.problem._00001_00100._00067;
 
 public class Solution {
     public String addBinary(String a, String b) {

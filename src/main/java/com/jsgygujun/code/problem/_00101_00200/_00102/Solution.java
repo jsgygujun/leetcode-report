@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00102;
+package com.jsgygujun.code.problem._00101_00200._00102;
 
 import com.jsgygujun.code.util.TreeNode;
 import org.junit.Test;

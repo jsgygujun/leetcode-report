@@ -1,6 +1,5 @@
 package com.jsgygujun.code.problem._00001_00100._00005;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 /**

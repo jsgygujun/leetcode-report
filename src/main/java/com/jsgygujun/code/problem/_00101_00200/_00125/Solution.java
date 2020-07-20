@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00125;
+package com.jsgygujun.code.problem._00101_00200._00125;
 
 /**
  * @author gujun@qiyi.com
