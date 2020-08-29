@@ -20,6 +20,7 @@
 | [00016-最接近的三数之和](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00016/Solution.java) | 中等 | 双指针           |
 | 00017-电话号码的字母组合                                     | 中等 | 递归，组合       |
 | [00019-删除链表的倒数第N个节点](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00019/Solution.java) | 中等 | 链表，快慢指针   |
+| [00020-有效的括号](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00020/Solution.java) | 简单 |                  |
 | [00021-合并两个有序链表](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00021/Solution.java) | 简单 | 链表             |
 | [00022-括号生成](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00022/Solution.java) | 中等 | 递归，DFS        |
 | [00024-两两交换链表的节点](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00024/Solution.java) | 中等 | 链表             |
