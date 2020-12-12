@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00001_00100._00019;
+package com.jsgygujun.code.problem._00001_00100._00019_删除链表的倒数第N个节点;
 
 import com.jsgygujun.code.util.ListNode;
 
@@ -23,9 +23,9 @@ public class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         /*
          * - 快慢指针
-         * 快指针从链表头向前移动`n+1`步，慢指针从链表头出发。同时移动快慢指针，当快指针到达最后一个节点时，则当慢指针的删除其next节点。
+         * 快指针从链表头向前移动「n+1」步，慢指针从链表头出发。同时移动快慢指针，当快指针到达最后一个节点时，则慢指针的删除其next节点。
          */
-        ListNode dummy = new ListNode(0); // 哑节点：避开对头节点删除时的特殊处理
+        ListNode dummy = new ListNode(0); // 虚拟节点：避开对头节点删除时的特殊处理
         dummy.next = head;
         ListNode fast = dummy, slow = dummy;
         // 快指针先走N+1步，使得快慢指针中间间隔N个节点
