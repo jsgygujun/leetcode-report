@@ -42,10 +42,65 @@ public class Solution {
         return len;
     }
 
+    // 套用模版
+    public int lengthOfLongestSubstring2(String s) {
+        if (s == null || s.length() == 0) return 0;
+        int left = 0, right = 0;
+        Map<Character, Integer> map = new HashMap<>(s.length()); // 保存每个字符的最新下标 c -> idx
+        int maxLen = 0;
+        while (right < s.length()) {
+            char c = s.charAt(right); // 将要加入滑动窗口的字符
+            if (map.containsKey(c) && left <= map.get(c)) { // 判断滑动窗口是否需要缩小。需要缩小的条件：当前加入的字符「c」已经在滑动窗口中
+                left = map.get(c) + 1;
+            }
+            map.put(c, right);
+            maxLen = Math.max(maxLen, (right-left+1));
+            right++;
+        }
+        return maxLen;
+    }
+
+    // 套用模版2
+    public int lengthOfLongestSubstring3(String s) {
+        if (s == null || s.length() == 0) return 0;
+        int left = 0, right = 0;
+        Map<Character, Integer> map = new HashMap<>(s.length()); // 记录「滑动窗口中」字符所在的下标
+        int maxLen = 0;
+        while (right < s.length()) {
+            char c = s.charAt(right); // 将要加入滑动窗口的字符
+            if (map.containsKey(c)) { // 滑动窗口需要缩小条件： 将要加入的字符已经存在与当前滑动窗口中
+                int idx = map.get(c); // left 需要移动到idx+1处, 同时需要删除map中已经移处滑动窗口的元素
+                while (left <= idx) {
+                    map.remove(s.charAt(left));
+                    left++;
+                }
+            }
+            map.put(c, right);
+            maxLen = Math.max(maxLen, right-left+1);
+            right++;
+        }
+        return maxLen;
+    }
+
     public static void main(String[] args) {
         System.out.println(new Solution().lengthOfLongestSubstring("abcabcbb"));
         System.out.println(new Solution().lengthOfLongestSubstring("bbbbb"));
         System.out.println(new Solution().lengthOfLongestSubstring("pwwkew"));
         System.out.println(new Solution().lengthOfLongestSubstring("abba"));
     }
+
+    // 滑动窗口模版，滑动窗口元素: [left, right], 窗口大小: right-left+1
+//    void slidingWindowTemplate(String s) {
+//        int left = 0, right = 0;
+//        while (right < s.length()) {
+//            char c = s.charAt(right); // 「c」是将要移入窗口的字符
+//            // 进行窗口内数据的更新
+//            while (窗口需要缩小的条件) {
+//                char d = s.charAt(left);
+//                left++;
+//                // 进行窗口内数据的更新
+//            }
+//            right++;
+//        }
+//    }
 }
