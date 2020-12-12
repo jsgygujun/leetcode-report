@@ -22,24 +22,24 @@ import java.util.Map;
  * 示例3：
  * 输入: "pwwkew"
  * 输出: 3
- * 解释: 因为无重复字符的最长子串是 "wke"，所以其长度为 3。
- *      请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。
+ * 解释: 因为无重复字符的最长子串是「"wke"」，所以其长度为 3。
+ * 请注意，你的答案必须是「子串」的长度，「"pwke"」是一个子序列，不是子串。
  *
  */
 public class Solution {
     public int lengthOfLongestSubstring(String s) {
-        // 滑动窗口
+        // 滑动窗口 [left, right], len = right-left+1
         if (s.length() == 0) return 0;
-        Map<Character, Integer> lookup = new HashMap<>();
-        int res = 0, left = 0;
-        for (int i = 0; i < s.length(); ++i) {
-            if (lookup.containsKey(s.charAt(i))) {
-                left = Math.max(left, lookup.get(s.charAt(i)) + 1); // 只有当left需要往右边变动时才更新。
+        Map<Character, Integer> map = new HashMap<>(); // 保存每个字符的最新下标
+        int len = 0, left = 0;
+        for (int right = 0; right < s.length(); ++right) {
+            if (map.containsKey(s.charAt(right))) {
+                left = Math.max(left, map.get(s.charAt(right))+1); // 只有当left需要往右边变动时才更新。
             }
-            lookup.put(s.charAt(i), i); // 保存每个字符的最新下标
-            res = Math.max(res, i-left+1);
+            map.put(s.charAt(right), right); // 保存每个字符的最新下标
+            len = Math.max(len, right-left+1);
         }
-        return res;
+        return len;
     }
 
     public static void main(String[] args) {
