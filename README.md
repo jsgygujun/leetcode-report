@@ -3,9 +3,9 @@
 
 | 题目                                                         | 难度 | 标签             |
 | :----------------------------------------------------------- | :--- | :--------------- |
-| [00001-两数之和](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00001/Solution.java) | 简单 | 哈希             |
-| [00002-两数相加](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00002/Solution.java) | 中等 | 链表             |
-| [00003-无重复字符的最长串](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00003/Solution.java) | 中等 | 滑动窗口         |
+| [00001-两数之和](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00001_两数之和/Solution.java) | 简单 | 哈希             |
+| [00002-两数相加](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00002_两数相加/Solution.java) | 中等 | 链表             |
+| [00003-无重复字符的最长串](/Users/jun/GitHub/leetcode-report/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00003_无重复字符的最长子串/Solution.java) | 中等 | 滑动窗口         |
 | 00004-寻找两个正序数组的中位数                               | 困难 |                  |
 | [00005-最长回文子串](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00005/Solution.java) | 中等 | 动态规划         |
 | 00006-Z字形变换                                              | 中等 |                  |
@@ -32,6 +32,7 @@
 | [00035-搜索插入位置](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00035/Solution.java) | 简单 | 二分查找         |
 | [00050-Pow(x, n)](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00050/Solution.java) | 中等 |                  |
 | [00069-X的平方根](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00069/Solution.java) | 简单 | 二分查找         |
+| [00076-最小覆盖子串](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00076_最小覆盖子串/Solution.java) | 困难 | 滑动窗口         |
 | [00112-不同路径 II]()                                        |      |                  |
 | [00019-删除链表的倒数第N个节点](/src/main/java/com/jsgygujun/code/problem/_00019/README.md) | 中等 | 链表             |
 | [00094-二叉树的中序遍历](/src/main/java/com/jsgygujun/code/problem/_00094/README.md) | 中等 |                  |

@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00001_00100._00001;
+package com.jsgygujun.code.problem._00001_00100._00001_两数之和;
 
 import java.util.HashMap;
 import java.util.Map;
