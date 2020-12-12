@@ -50,12 +50,12 @@ public class Solution {
         int maxLen = 0;
         while (right < s.length()) {
             char c = s.charAt(right); // 将要加入滑动窗口的字符
+            right++;
             if (map.containsKey(c) && left <= map.get(c)) { // 判断滑动窗口是否需要缩小。需要缩小的条件：当前加入的字符「c」已经在滑动窗口中
                 left = map.get(c) + 1;
             }
-            map.put(c, right);
-            maxLen = Math.max(maxLen, (right-left+1));
-            right++;
+            map.put(c, right-1);
+            maxLen = Math.max(maxLen, (right-left));
         }
         return maxLen;
     }
@@ -68,6 +68,7 @@ public class Solution {
         int maxLen = 0;
         while (right < s.length()) {
             char c = s.charAt(right); // 将要加入滑动窗口的字符
+            right++;
             if (map.containsKey(c)) { // 滑动窗口需要缩小条件： 将要加入的字符已经存在与当前滑动窗口中
                 int idx = map.get(c); // left 需要移动到idx+1处, 同时需要删除map中已经移处滑动窗口的元素
                 while (left <= idx) {
@@ -75,9 +76,8 @@ public class Solution {
                     left++;
                 }
             }
-            map.put(c, right);
-            maxLen = Math.max(maxLen, right-left+1);
-            right++;
+            map.put(c, right-1);
+            maxLen = Math.max(maxLen, right-left);
         }
         return maxLen;
     }
