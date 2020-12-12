@@ -5,7 +5,7 @@
 | :----------------------------------------------------------- | :--- | :--------------- |
 | [00001-两数之和](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00001_两数之和/Solution.java) | 简单 | 哈希             |
 | [00002-两数相加](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00002_两数相加/Solution.java) | 中等 | 链表             |
-| [00003-无重复字符的最长串](/Users/jun/GitHub/leetcode-report/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00003_无重复字符的最长子串/Solution.java) | 中等 | 滑动窗口         |
+| [00003-无重复字符的最长串](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00003_无重复字符的最长子串/Solution.java) | 中等 | 滑动窗口         |
 | 00004-寻找两个正序数组的中位数                               | 困难 |                  |
 | [00005-最长回文子串](/src/main/java/com/jsgygujun/code/problem/_00001_00100/_00005/Solution.java) | 中等 | 动态规划         |
 | 00006-Z字形变换                                              | 中等 |                  |
