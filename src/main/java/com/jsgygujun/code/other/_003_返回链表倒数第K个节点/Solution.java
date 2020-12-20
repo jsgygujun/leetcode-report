@@ -1,4 +1,4 @@
-package com.jsgygujun.code.other._003返回链表倒数第K个节点;
+package com.jsgygujun.code.other._003_返回链表倒数第K个节点;
 
 import com.jsgygujun.code.util.ListNode;
 
