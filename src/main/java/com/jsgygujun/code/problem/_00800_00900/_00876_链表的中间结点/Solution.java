@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00800_00900._00876;
+package com.jsgygujun.code.problem._00800_00900._00876_链表的中间结点;
 
 import com.jsgygujun.code.util.ListNode;
 
