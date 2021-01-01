@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00001_00100._00016;
+package com.jsgygujun.code.problem._00001_00100._00016_最接近的三数之和;
 
 import java.util.Arrays;
 
@@ -36,7 +36,31 @@ public class Solution {
         return ans;
     }
 
+    public int threeSumClosest2(int[] nums, int target) {
+        Arrays.sort(nums);
+        int ans = Integer.MAX_VALUE;
+        int sum = 0;
+        for (int i = 0; i < nums.length-2; ++i) {
+            int p = i+1, q = nums.length-1;
+            while (p < q) {
+                if (Math.abs(target-nums[i]-nums[p]-nums[q]) < ans) {
+                    ans = Math.abs(target-nums[i]-nums[p]-nums[q]);
+                    sum = nums[i] + nums[p] + nums[q];
+                }
+                if (nums[p]+nums[q]+nums[i] == target) {
+                    return target;
+                }
+                if (nums[p]+nums[q]+nums[i] < target) {
+                    ++p;
+                } else {
+                    --q;
+                }
+            }
+        }
+        return sum;
+    }
+
     public static void main(String[] args) {
-        System.out.println(new Solution().threeSumClosest(new int[]{1,1,-1,-1,3}, -1));
+        System.out.println(new Solution().threeSumClosest2(new int[]{0,1,2}, 3));
     }
 }
