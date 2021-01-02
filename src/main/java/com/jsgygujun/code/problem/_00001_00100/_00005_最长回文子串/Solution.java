@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00001_00100._00005;
+package com.jsgygujun.code.problem._00001_00100._00005_最长回文子串;
 
 import org.junit.Test;
 
@@ -28,7 +28,7 @@ public class Solution {
         int n = s.length();
         boolean[][] dp = new boolean[n][n];
         int L = 0, R = 0, maxLen = 1;
-        // f重点：从较短的子串向较长子串递推
+        // 重点：从较短的子串向较长子串递推
         for (int l = 0; l < n; ++l) { // 控制子串长度
             for (int i = 0; i < n; ++i) {
                 int j = i + l;
@@ -46,10 +46,54 @@ public class Solution {
         return s.substring(L, R+1);
     }
 
+    public String longestPalindrome2(String s) {
+        int ansL = 0, ansR = 0;
+        int ansLen = 0;
+        // "aba" 的情况
+        for (int i = 0; i < s.length(); ++i) {
+            int l = i, r = i;
+            for (int p = 0; p <= s.length()/2; ++p) {
+                l = l - p;
+                r = r + p;
+                if (l < 0 || r >= s.length()) break;
+                if (s.charAt(l) != s.charAt(r)) break;
+                if (r-l > ansLen) {
+                    ansLen = r-l;
+                    ansL = l;
+                    ansR = r;
+                }
+            }
+        }
+        // "aa" 的情况
+        for (int i = 0; i < s.length()-1; ++i) {
+            int l = i, r = i+1;
+            for (int p = 0; p <= s.length()/2; ++p) {
+                l = l - p;
+                r = r + p;
+                if (l < 0 || r >= s.length()) break;
+                if (s.charAt(l) != s.charAt(r)) break;
+                if (r-l > ansLen) {
+                    ansLen = r-l;
+                    ansL = l;
+                    ansR = r;
+                }
+            }
+        }
+        return s.substring(ansL, ansR+1);
+    }
+
     @Test
     public void test() {
         System.out.println(new Solution().longestPalindrome("babad"));
         System.out.println(new Solution().longestPalindrome("cbbd"));
         System.out.println(new Solution().longestPalindrome("abcba"));
+    }
+
+    @Test
+    public void test2() {
+//        System.out.println(new Solution().longestPalindrome2("babad"));
+//        System.out.println(new Solution().longestPalindrome2("cbbd"));
+//        System.out.println(new Solution().longestPalindrome2("abcba"));
+        System.out.println(new Solution().longestPalindrome2("ccc"));
     }
 }
