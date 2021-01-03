@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00001_00100._00007;
+package com.jsgygujun.code.problem._00001_00100._00007_整数翻转;
 
 /**
  * 7. 整数反转
@@ -37,5 +37,18 @@ public class Solution {
         System.out.println(new Solution().reverse(123));
         System.out.println(new Solution().reverse(-123));
         System.out.println(new Solution().reverse(120));
+    }
+
+    public int reverse2(int x) {
+        int sign = x >= 0 ? 1 : -1;
+        x = Math.abs(x);
+        long res = 0;
+        while (x > 0) {
+            int r = x % 10;
+            res = res * 10 + r;
+            x /= 10;
+        }
+        res = sign * res;
+        return (res >= Integer.MIN_VALUE && res <= Integer.MAX_VALUE) ? (int)res : 0;
     }
 }
