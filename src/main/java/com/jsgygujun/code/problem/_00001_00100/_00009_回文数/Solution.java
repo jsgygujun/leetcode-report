@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00001_00100._00009;
+package com.jsgygujun.code.problem._00001_00100._00009_回文数;
 
 import org.junit.Assert;
 import org.junit.Test;

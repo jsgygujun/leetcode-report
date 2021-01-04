@@ -82,15 +82,19 @@ public class Solution {
      * @param i 从数组1的i下标元素开始
      * @param nums2 数组二
      * @param j 从数组2的j下标元素开始
-     * @param k 第K小元素
+     * @param k 第K小元素，K 从 1 开始
      * @return
      */
     private int findKth(int[] nums1, int i, int[] nums2, int j, int k) {
+        // 1. 起始索引超过数组大小的情况
         if (i >= nums1.length) return nums2[j+k-1]; // nums1 为空数组
         if (j >= nums2.length) return nums1[i+k-1]; // nums2 为空数组
+        // 2. k == 1 的情况
         if (k == 1) return Math.min(nums1[i], nums2[j]); // k == 1 的情况，返回nums1[i], nums2[j]的较小者
+        // 3. 分别考虑两个数组第「k/2」小元素的情况，哪个小，就淘汰谁（说明第「K」小元素肯定不在那个数组的前「k/2」个元素中）
+        // 淘汰谁即将起始索引向后移动k/2个数组，并且k也要减去k/2
         int mid1 = (i+k/2-1 < nums1.length) ? nums1[i+k/2-1] : Integer.MAX_VALUE; // 赋予最大值的意思只是说如果第一个数组的K/2不存在，则说明这个数组的长度小于K/2，那么另外一个数组的前K/2个我们是肯定不要的
-        int mid2 = (j+k/2-1 < nums2.length) ? nums2[j+k/2-1] : Integer.MIN_VALUE;
+        int mid2 = (j+k/2-1 < nums2.length) ? nums2[j+k/2-1] : Integer.MAX_VALUE;
         return mid1 <= mid2 ? findKth(nums1, i+k/2, nums2, j, k-k/2) : findKth(nums1, i, nums2, j+k/2, k-k/2);
     }
 
