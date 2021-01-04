@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00001_00100._00098;
+package com.jsgygujun.code.problem._00001_00100._00098_验证二叉搜索树;
 
 import com.jsgygujun.code.util.TreeNode;
 import org.junit.Assert;
