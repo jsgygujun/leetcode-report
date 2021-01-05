@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00001_00100._00017;
+package com.jsgygujun.code.problem._00001_00100._00017_电话号码的字母组合;
 
 import org.junit.Test;
 

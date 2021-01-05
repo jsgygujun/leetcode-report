@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00601_00700._00637;
+package com.jsgygujun.code.problem._00601_00700._00637_二叉树的层平均值;
 
 import com.jsgygujun.code.util.TreeNode;
 import org.junit.Test;

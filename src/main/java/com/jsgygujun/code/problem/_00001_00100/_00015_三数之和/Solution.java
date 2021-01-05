@@ -1,14 +1,14 @@
-package com.jsgygujun.code.problem._00001_00100._00015;
+package com.jsgygujun.code.problem._00001_00100._00015_三数之和;
 
 import org.junit.Test;
 
 import java.util.*;
 
 /**
- * 15-三数之和
+ * 15. 三数之和
  *
  * 题目：
- * 给你一个包含 n 个整数的数组 nums，判断 nums 中是否存在三个元素 a，b，c ，使得 a + b + c = 0 ？请你找出所有满足条件且不重复的三元组。
+ * 给你一个包含 n 个整数的数组nums，判断nums中是否存在三个元素 a，b，c ，使得a + b + c = 0 ？请你找出所有满足条件且不重复的三元组。
  *
  * 注意：答案中不可以包含重复的三元组。
  *

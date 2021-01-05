@@ -1,9 +1,9 @@
-package com.jsgygujun.code.problem._00001_00100._00020;
+package com.jsgygujun.code.problem._00001_00100._00020_有效的括号;
 
 import java.util.*;
 
 /**
- * 20-有效的括号
+ * 20. 有效的括号
  *
  * 题目：
  * 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。

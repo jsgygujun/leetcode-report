@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00001_00100._00022;
+package com.jsgygujun.code.problem._00001_00100._00022_括号生成;
 
 import org.junit.Test;
 

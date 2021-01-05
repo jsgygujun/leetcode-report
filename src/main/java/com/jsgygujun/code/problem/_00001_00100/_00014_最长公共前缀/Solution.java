@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00001_00100._00014;
+package com.jsgygujun.code.problem._00001_00100._00014_最长公共前缀;
 
 import org.junit.Assert;
 import org.junit.Test;
