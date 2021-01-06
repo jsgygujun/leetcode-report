@@ -1,7 +1,6 @@
 package com.jsgygujun.code.util;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
+import java.util.*;
 
 public class TreeNode {
     public int val;
@@ -49,6 +48,24 @@ public class TreeNode {
                 p = p.right;
             }
         }
+    }
+
+    static List<Integer> postorder(TreeNode root) {
+        List<Integer> ans = new ArrayList<>();
+        Deque<TreeNode> stack = new ArrayDeque<>();
+        while (root != null || !stack.isEmpty()) {
+            // 后序遍历： 左 -> 右 -> 中
+            // 先进行 中 -> 右 -> 左 遍历， 然后进行逆序
+            while (root != null) {
+                ans.add(root.val);
+                stack.push(root);
+                root = root.right;
+            }
+            TreeNode curr = stack.pop();
+            root = curr.left;
+        }
+        Collections.reverse(ans);
+        return ans;
     }
 
     /**
