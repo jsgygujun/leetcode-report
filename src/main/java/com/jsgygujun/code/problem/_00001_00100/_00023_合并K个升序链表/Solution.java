@@ -3,6 +3,8 @@ package com.jsgygujun.code.problem._00001_00100._00023_合并K个升序链表;
 import com.jsgygujun.code.util.ListNode;
 import org.junit.Test;
 
+import java.util.PriorityQueue;
+
 /**
  * 23. 合并K个排序链表
  *
@@ -41,6 +43,27 @@ public class Solution {
         return dummy.next;
     }
 
+    public ListNode mergeKLists2(ListNode[] lists) {
+        PriorityQueue<ListNode> pq = new PriorityQueue<ListNode>(lists.length, (o1, o2) -> {
+            int v1 = o1 == null ? Integer.MAX_VALUE : o1.val;
+            int v2 = o2 == null ? Integer.MAX_VALUE : o2.val;
+            return v1 - v2;
+        });
+        for (ListNode list : lists) {
+            if (list != null) pq.offer(list);
+        }
+        ListNode dummy = new ListNode(0);
+        ListNode curr = dummy;
+        while (true) {
+            ListNode node = pq.poll();
+            if (node == null) break;
+            curr.next = new ListNode(node.val);
+            curr = curr.next;
+            if (node.next != null) pq.offer(node.next);
+        }
+        return dummy.next;
+    }
+
     // 是否遍历完了链表数组
     boolean hasValidNode(ListNode[] lists) {
         for (ListNode list : lists) {
@@ -55,6 +78,6 @@ public class Solution {
         ListNode l2 = new ListNode(new int[]{1,3,4});
         ListNode l3 = new ListNode(new int[]{2,6});
         ListNode[] lists = new ListNode[]{l1,l2,l3};
-        System.out.println(new Solution().mergeKLists(lists));
+        System.out.println(new Solution().mergeKLists2(lists));
     }
 }

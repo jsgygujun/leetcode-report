@@ -26,6 +26,12 @@ import org.junit.Test;
  */
 public class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
+        /**
+         * 思路：
+         * 1. 链表分为已翻转、待翻转和未翻转部份。
+         * 2. [head,prev]：已翻转，[prev.next, tail]：待翻转，[tail.next, null]：未翻转
+         * 3. 辅助函数 reverse(ListNode node): 翻转[node,null] 节点
+         */
         ListNode dummy = new ListNode(0);
         dummy.next = head;
         ListNode prev = dummy;  // prev 指向每次要翻转的链表的头节点的上一个节点

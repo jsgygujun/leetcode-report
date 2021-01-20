@@ -1,4 +1,4 @@
-package com.jsgygujun.code.problem._00101_00200._00124;
+package com.jsgygujun.code.problem._00101_00200._00124_二叉树中的最大路径和;
 
 import com.jsgygujun.code.util.TreeNode;
 

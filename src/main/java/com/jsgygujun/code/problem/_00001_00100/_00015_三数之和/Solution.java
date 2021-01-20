@@ -48,8 +48,41 @@ public class Solution {
         return ans;
     }
 
+    public List<List<Integer>> threeSum2(int[] nums) {
+        List<List<Integer>> ans = new ArrayList<>();
+        Arrays.sort(nums);
+        for (int i = 0; i < nums.length-2 && nums[i] <= 0; ++i) {
+            if (i != 0 && nums[i] == nums[i-1]) {
+                continue;
+            }
+
+            int a = nums[i];
+            int j = i+1, k = nums.length-1;
+
+            while (j < k) {
+                int b = nums[j], c = nums[k];
+                if (a + b + c == 0) {
+                    ans.add(Arrays.asList(a,b,c));
+                    ++j;
+                    while (j < k && nums[j] == nums[j-1]) ++j;
+                    --k;
+                } else if (a + b + c < 0) {
+                    ++j;
+                } else {
+                    --k;
+                }
+            }
+        }
+        return ans;
+    }
+
     @Test
     public void test() {
-        System.out.println(new Solution().threeSum(new int[]{-1,0,1,2,-1,-4}));
+        System.out.println(new Solution().threeSum2(new int[]{-1,0,1,2,-1,-4}));
+    }
+
+    @Test
+    public void test2() {
+        System.out.println(new Solution().threeSum2(new int[]{-2,0,0,2,2}));
     }
 }
