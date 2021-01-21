@@ -12,14 +12,14 @@ public class 快速排序 {
         int pivot = nums[l]; // 选择左边界的元素作为pivot，此时nums[l]是一个空位
         while (l < r) {
             // 从右开始
-            while (l < r && (nums[r] < pivot)) --r;
+            while (l < r && (nums[r] >= pivot)) --r;
             if (l < r) {
                 // 此时nums[r] < pivot，应该放在左侧空位nums[l]
                 nums[l] = nums[r];
                 ++l;
             }
             // 从左开始
-            while (l < r && (nums[l] > pivot)) ++l;
+            while (l < r && (nums[l] <= pivot)) ++l;
             if (l < r) {
                 // 此时nums[l] > pivot，应该放在右侧空位nums[r]
                 nums[r] = nums[l];
@@ -44,7 +44,7 @@ public class 快速排序 {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[] {1,5,4,2,3};
+        int[] nums = new int[] {1,5,4,2,3,3,3,5,3};
         quickSort(nums);
         for (int n : nums) System.out.println(n);
     }
