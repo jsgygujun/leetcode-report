@@ -51,8 +51,37 @@ public class Solution {
         return -1;
     }
 
+    public int search2(int[] nums, int target) {
+        int l = 0, r = nums.length-1;
+        while (l <= r) {
+            int m = l + (r-l)/2;
+            if (nums[m] == target) return m;
+            if ((nums[l] <= nums[m])) {
+                // [l...m] 有序
+                if (target >= nums[l] && target < nums[m]) {
+                    r = m-1;
+                } else {
+                    l = m+1;
+                }
+            } else {
+                // [m...r] 有序
+                if (target > nums[m] && target <= nums[r]) {
+                    l = m+1;
+                } else {
+                    r = m-1;
+                }
+            }
+        }
+        return -1;
+    }
+
     @Test
     public void test() {
         System.out.println(new Solution().search(new int[] {5,6,7,0,1,2}, 0));
+    }
+
+    @Test
+    public void test2() {
+        System.out.println(new Solution().search2(new int[]{3,1}, 1));
     }
 }

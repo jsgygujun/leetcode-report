@@ -14,6 +14,7 @@ import org.junit.Test;
  * @Date 2020/12/25
  */
 public class Solution {
+    // O(m+n)
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int len1 = nums1.length;
         int len2 = nums2.length;
@@ -31,7 +32,7 @@ public class Solution {
         }
         return (len1 + len2) % 2 == 1 ? nums[(len1+len2)/2] : 0.5*(nums[(len1+len2)/2 -1] + nums[(len1+len2)/2]);
     }
-
+    // O(m+n)
     public double findMedianSortedArrays2(int[] nums1, int[] nums2) {
         int len1 = nums1.length;
         int len2 = nums2.length;
